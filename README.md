@@ -1,2 +1,80 @@
-# login_e_senha
-Vai ser realizado um login e senha pelo 2° ano 
+ba<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Colégio Estadual Dom Carlos</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<header>
+<h1>Colégio Estadual Dom Carlos</h1>
+<p>Educação, cidadania e compromisso com o futuro</p>
+</header>
+<nav>
+<a href="#inicio">Ínicio</a>
+<a href="#sobre">Sobre</a>
+<a href="#cursos">Cursos</a>
+<a href="#agenda">agenta</a>
+<a href="#contato">Contato</a>
+
+</nav>
+
+<section class="hero" id="inicio">
+<h2>Bem-Vindo ao nosso portal escolar</h2>
+<p>Um site simples para apresentar informações do colégio, comunicados
+atividadss e contato com a comunidade escolar
+</p>
+<a href="#sobre" class="btn">Conhecer o Colégio</a>
+</section>
+
+<main class="container">
+<section id="sobre" class="info-box">
+<h2>Sobre o colégio</h2>
+<p>
+O colégio Estadual Dom Carlos tem como missão oferecer ensino de qualidade,
+promovendo o desenvolvimento acadêmico, social e humanodos estudantes.
+Aqui valorizamos o respeito, a disciplina e a participação da comunidade.
+</p>
+</section>
+
+<section id="cursos">
+<div class="cards">
+<div class="card">
+<h3>Ensino Fundamental</h3>
+<p>Formação basica com foco no desnevolvimento integral dos alunos</p>
+</div>
+<div class="card">
+<h3>Ensino Fundamental</h3>
+<p>Preparação para o futuro acadêmico, profissionale social.</p>
+</div>
+<div class="card">
+<h3>Projetos Escolares</h3>
+<p>Feiras, oficinas, esportes, leitura e atividades culturais.</p>
+</div>
+</section>
+
+<section id="agenda" class="info-box">
+<h2>Agenda e avisos</h2>
+<ul class="agenda">
+<li><strong>20/03</strong>Reunião com os responsaveis as 19h.</li>
+<li><strong>25/03</strong>ínicio da semana de avaliações</li>
+<li><strong>02/04</strong>Feira cultural no patio da escola.</li>
+</ul>
+</section>
+
+<section id="contato" class="info-box">
+<h2>contato</h2>
+<p><strong>Endereço:</strong>Rua Exemplo, 123 - Centro</p>
+<p><strong>Telefone:</strong>(046)-3263-1817</p>
+<p><strong>Horario de atendimento:</strong>Segunda a sexta, das 7h as 18h</p>
+<section>
+</main>
+<footer>
+<P>&copy; 2026 Colégio Estdual Dom Carlos - Todos os reversados.</p>
+</footer>
+</body>
+
+</html>
